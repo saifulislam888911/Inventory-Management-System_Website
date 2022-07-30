@@ -51,7 +51,7 @@
     </div>
 
     <div class="col-sm-6">
-        <a href="http://register.php" target="_blank" rel="noopener noreferrer">
+        <a href="register.php" target="_blank" rel="noopener noreferrer">
             <input type="button" class="btn btn-success pull-left" value="Register">
         </a>
     </div>

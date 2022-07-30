@@ -1,0 +1,87 @@
+<?php
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registration Form : Inventory Management System</title>
+
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+    <form method="POST" action="login.php" enctype="multipart/form-data">
+
+        <h1>Registration Form</h1>
+
+        <div>
+            <label for="">Name : </label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+        </div>
+
+        <div>
+            <label for="">Username : </label>
+            <input type="text" name="username" id="username" placeholder="Enter Your Username" required>
+        </div>
+
+        <div>
+            <label for="">Email : </label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+        </div>
+
+        <div>
+            <label for="">Password : </label>
+            <input type="password" name="password" id="password" placeholder="Enter Password" required>
+        </div>
+
+        <div>
+            <label for="">Repeat Password : </label>
+            <input type="password" name="repeat_password" id="repeat_password" placeholder="Confirm Password" required>
+        </div>
+
+        <div>
+            <label for="">Contact No. : </label>
+            <input type="tel" name="contact_no" id="contact_no" placeholder="Enter Your Contact Number">
+        </div>
+
+        <div>
+            <label for="">Address : </label>
+            <input type="text" name="address" id="address" placeholder="Enter Your Address">
+        </div>
+
+        <div>
+            <p> <span>***</span> By Creating An Account You Agree To Our Terms & Privacy</p>
+        </div>
+
+        <div>
+            <input type="submit" class="btn btn-success" value="Submit">
+        </div>
+
+        <div>
+            <p>Already Have An Account <a href="login.php">Sign in</a></p>
+        </div>
+    </form>
+</body>
+
+</html>
