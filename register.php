@@ -1,5 +1,10 @@
 <?php
 
+    include "authentication/dbConnection.php";
+
+    $conn = connect();
+
+    close_connect($conn);
 ?>
 
 <!DOCTYPE html>
