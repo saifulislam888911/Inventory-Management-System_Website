@@ -28,59 +28,68 @@
     <!-- MY CSS -->
     <link rel="stylesheet" href="styles/style.css">
 
+    <link rel="stylesheet" href="styles/register.css">
+
 </head>
 
 <body>
     <form method="POST" action="login.php" enctype="multipart/form-data">
+        <section class="container">
+            <div class="text_align">
+                <h1>Registration Form</h1>
 
-        <h1>Registration Form</h1>
+                <hr>
+            </div>
 
-        <div>
-            <label for="">Name : </label>
-            <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
-        </div>
+            <div>
+                <label for="">Name<span>*</span> : </label>
+                <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+            </div>
 
-        <div>
-            <label for="">Username : </label>
-            <input type="text" name="username" id="username" placeholder="Enter Your Username" required>
-        </div>
+            <div>
+                <label for="">Username<span>*</span> : </label>
+                <input type="text" name="username" id="username" placeholder="Enter Your Username" required>
+            </div>
 
-        <div>
-            <label for="">Email : </label>
-            <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
-        </div>
+            <div>
+                <label for="">Email<span>*</span> : </label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+            </div>
 
-        <div>
-            <label for="">Password : </label>
-            <input type="password" name="password" id="password" placeholder="Enter Password" required>
-        </div>
+            <div>
+                <label for="">Password<span>*</span> : </label>
+                <input type="password" name="password" id="password" placeholder="Enter Password" required>
+            </div>
 
-        <div>
-            <label for="">Repeat Password : </label>
-            <input type="password" name="repeat_password" id="repeat_password" placeholder="Confirm Password" required>
-        </div>
+            <div>
+                <label for="">Repeat Password<span>*</span> : </label>
+                <input type="password" name="repeat_password" id="repeat_password" placeholder="Confirm Password" required>
+            </div>
 
-        <div>
-            <label for="">Contact No. : </label>
-            <input type="tel" name="contact_no" id="contact_no" placeholder="Enter Your Contact Number">
-        </div>
+            <div>
+                <label for="">Contact No. : </label>
+                <input type="tel" name="contact_no" id="contact_no" placeholder="Enter Your Contact Number">
+            </div>
 
-        <div>
-            <label for="">Address : </label>
-            <input type="text" name="address" id="address" placeholder="Enter Your Address">
-        </div>
+            <div>
+                <label for="">Address : </label>
+                <input type="text" name="address" id="address" placeholder="Enter Your Address">
+            </div>
 
-        <div>
-            <p> <span>***</span> By Creating An Account You Agree To Our Terms & Privacy</p>
-        </div>
+            <div class="text_align">
+                <div>
+                    <p> <span>***</span> By Creating An Account You Agree To Our Terms & Privacy</p>
+                </div>
 
-        <div>
-            <input type="submit" class="btn btn-success" value="Submit">
-        </div>
+                <div>
+                    <input type="submit" class="btn btn-success" value="Submit">
+                </div>
 
-        <div>
-            <p>Already Have An Account <a href="login.php">Sign in</a></p>
-        </div>
+                <div>
+                    <p>Already Have An Account <a href="login.php">Sign in</a></p>
+                </div>
+            </div>
+        </section>
     </form>
 </body>
 
