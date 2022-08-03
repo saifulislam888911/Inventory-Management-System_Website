@@ -1,6 +1,6 @@
 <?php
 
-    include "authentication/dbConnection.php";
+    include 'authentication/dbConnection.php';
 
     $conn = connect();
 
@@ -71,14 +71,15 @@
                 <input type="password" name="repeat_password" id="repeat_password" placeholder="Confirm Password" required>
             </div>
 
-            <div>
-                <label for="">Contact No. : </label>
-                <input type="tel" name="contact_no" id="contact_no" placeholder="Enter Your Contact Number">
-            </div>
-
+            
             <div>
                 <label for="">Address : </label>
                 <input type="text" name="address" id="address" placeholder="Enter Your Address">
+            </div>
+
+            <div>
+                <label for="">Contact No. : </label>
+                <input type="tel" name="contact_no" id="contact_no" placeholder="Enter Your Contact Number">
             </div>
 
             <div class="text_align">
