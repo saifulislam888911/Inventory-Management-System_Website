@@ -4,7 +4,21 @@
 
     $conn = connect();
 
-    close_connect($conn);
+/*    close_connect($conn);
+*/
+
+    if(isset($_POST['submit']))
+    {
+        $name = $_POST['name'];
+        $username = $_POST['username'];
+        $email = $_POST['email'];
+        $password = $_POST['password'];
+        $repeat_password = $_POST['repeat_password'];
+        $address = $_POST['address'] ? $_POST['address'] : '';
+        $contact_no = $_POST['contact_no'] ? $_POST['contact_no'] : '';
+
+
+    }
 ?>
 
 <!DOCTYPE html>
@@ -88,7 +102,7 @@
                 </div>
 
                 <div>
-                    <input type="submit" class="btn btn-success" value="Submit">
+                    <input type="submit" name="submit" class="btn btn-success" value="Submit">
                 </div>
 
                 <div>
